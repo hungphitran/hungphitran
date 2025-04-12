@@ -1,7 +1,7 @@
 # Xin chào, tôi là Trần Phi Hùng👋
 
 <div style="background: #f4f4f9; padding: 20px; border-radius: 10px; text-align: center;">
-  <img src="https://via.placeholder.com/150" alt="Avatar" style="border-radius: 50%; width: 150px; height: 150px;">
+  <img src="https://avatars.githubusercontent.com/u/130950996?v=4" alt="Avatar" style="border-radius: 50%; width: 150px; height: 150px;">
   <h2 style="color: #333;">Chào mừng!</h2>
   <p style="color: #555; font-size: 16px;">Tôi là một <strong> lập trình viên]</strong>, đam mê <em>học hỏi</em>.</p>
 </div>
