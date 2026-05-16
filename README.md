@@ -1,72 +1,85 @@
-# Xin chào, tôi là Trần Phi Hùng 👋
+# Tran Phi Hung
 
-<div style="background: #f4f4f9; padding: 20px; border-radius: 10px; text-align: center;">
+<div style="background: #f4f4f9; padding: 25px; border-radius: 10px; text-align: center;">
   <img src="https://avatars.githubusercontent.com/u/130950996?v=4" alt="Avatar" style="border-radius: 50%; width: 150px; height: 150px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1)';">
-  <h2 style="color: #333;">Chào mừng!</h2>
-  <p style="color: #555; font-size: 16px;">Tôi là một <strong>lập trình viên</strong>, đam mê <em>học hỏi</em>.</p>
+  <h2 style="color: #333; margin-top: 15px;">Backend & AI Engineer</h2>
+  <p style="color: #555; font-size: 16px; max-width: 600px; margin: 0 auto;">
+    Undergraduate at PTIT specializing in high-performance Backend architectures, Retrieval-Augmented Generation (RAG) pipelines, and Real-Time Embedded Systems.
+  </p>
 </div>
 
-## 🚀 Về tôi
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
-  <div style="flex: 1; background: #e6f3ff; padding: 15px; border-radius: 8px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)';" onmouseout="this.style.transform='translateY(0)';">
-    <p><strong>🌍 Sống tại:</strong> Hồ Chí Minh, Việt Nam</p>
-    <p><strong>💼 Công việc:</strong> Backend Nodejs Developer</p>
-    <p><strong>🎓 Học vấn:</strong> PTIT</p>
-  </div>
-  <div style="flex: 1; background: #fff3e6; padding: 15px; border-radius: 8px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)';" onmouseout="this.style.transform='translateY(0)';">
-    <p><strong>🌟 Sở thích:</strong></p>
-    <ul style="list-style: none; padding: 0;">
-      <li>Đá banh</li>
-      <li>Nghe nhạc</li>
-      <li>Code :))</li>
-    </ul>
-  </div>
+## Technical Expertise
+
+<table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+  <tr>
+    <td style="width: 50%; padding: 10px; vertical-align: top;">
+      <strong>Core Backend & Architecture</strong><br>
+      • Node.js, NestJS, FastAPI, Python<br>
+      • Microservices Architecture & API Gateways<br>
+      • Database Optimization (SQL Server, MySQL, DB Locking)<br>
+      • Clean Code Practices (Generic Mappers, DTO Patterns)
+    </td>
+    <td style="width: 50%; padding: 10px; vertical-align: top;">
+      <strong>Artificial Intelligence & NLP</strong><br>
+      • Retrieval-Augmented Generation (RAG) & LLM Orchestration<br>
+      • Bi-Encoder Fine-Tuning & Vector Semantics (FAISS)<br>
+      • Lexical Database Research (WordNet, NLTK, Synsets)<br>
+      • GPU-Accelerated Training (Kaggle, Google Colab)
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px; vertical-align: top;">
+      <strong>IoT & Embedded Systems</strong><br>
+      • C/C++, ESP32 Platform<br>
+      • FreeRTOS (Multi-tasking, Task Synchronization)<br>
+      • Hardware Interfacing (MAX30102, ST7735 Displays)<br>
+      • Wireless Protocols (Bluetooth A2DP Audio)
+    </td>
+    <td style="padding: 10px; vertical-align: top;">
+      <strong>DevOps & Workflow Automation</strong><br>
+      • Containerization: Docker<br>
+      • Cloud Deployment: Railway<br>
+      • Automated Code Review Workflows (CodeRabbit)<br>
+      • Version Control & CI/CD Fundamentals
+    </td>
+  </tr>
+</table>
+
+## Engineering Principles
+
+> I prioritize **clean, maintainable code architectures** and **automated quality guardrails**. My development workflow leverages custom generic mapper utilities to decouple entities from DTOs, and I actively utilize automated code review systems to maintain rigid codebase standards before deployment.
+
+## Deep-Dive Projects
+
+### 🧠 AI & Natural Language Processing
+*   **Vietnamese Legal Information Retrieval System**
+    *   Built an end-to-end RAG pipeline designed to parse and index complex Vietnamese legal datasets (`large-vi-legal-queries`).
+    *   Trained and fine-tuned Bi-Encoder models using GPU infrastructure on Kaggle/Colab, utilizing FAISS for high-density semantic vector indexing and retrieval.
+    *   *Keywords:* RAG, Bi-Encoder, FAISS, LLM, NLP.
+
+### 🏢 Enterprise Backend Systems
+*   **BigKey - Online Travel Agency (OTA) Platform**
+    *   Developed a scalable backend featuring complex business logic for hotel profile management and escrow payments.
+    *   Designed a dynamic inventory calendar engineered with strict database locking mechanisms (Optimistic/Pessimistic) to mitigate race conditions during high-concurrency booking requests.
+    *   *Keywords:* NestJS, Microservices, DB Locks, API Gateway, Escrow Payments.
+
+### 🔌 IoT & Hardware Engineering
+*   **PulseCare - Real-Time Health Monitor**
+    *   Engineered an ESP32-based firmware solution running FreeRTOS to handle simultaneous tasks: sensor polling (MAX30102 heart rate/SpO2), rendering real-time telemetry on an ST7735 display, and executing system tasks without blocking.
+    *   *Keywords:* ESP32, FreeRTOS, C++, Sensor Interfacing.
+
+## Academic & Professional Focus
+
+*   **Current Academic Engagement:** Pursuing a degree at the Posts and Telecommunications Institute of Technology (PTIT).
+*   **Looking For:** Opportunities as an **AI Engineer Intern** or **Backend Developer Intern** where I can contribute to production-grade architectures and advanced retrieval systems.
+
+## Contact & Links
+
+<div style="background: #e0f7fa; padding: 15px; border-radius: 8px; text-align: center;">
+  <strong>Email:</strong> <a href="mailto:hungphitran.22@gmail.com" style="color: #0066cc; text-decoration: none;">hungphitran.22@gmail.com</a> 
+  <span style="margin: 0 10px;">|</span>
+  <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/hungphitran-backenddev" style="color: #0066cc; text-decoration: none;">hungphitran-backenddev</a>
 </div>
-
-## 🔧 Kỹ năng
-<div style="background: #f9f9f9; padding: 15px; border-radius: 8px;">
-  <span style="background: #4CAF50; color: white; padding: 5px 10px; border-radius: 5px; margin: 5px; display: inline-block; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)';" onmouseout="this.style.transform='translateY(0)';">Javascript</span>
-  <span style="background: #2196F3; color: white; padding: 5px 10px; border-radius: 5px; margin: 5px; display: inline-block; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)';" onmouseout="this.style.transform='translateY(0)';">MySQL</span>
-  <span style="background: #FF9800; color: white; padding: 5px 10px; border-radius: 5px; margin: 5px; display: inline-block; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)';" onmouseout="this.style.transform='translateY(0)';">MongoDB</span>
-  <span style="background: #4CAF50; color: white; padding: 5px 10px; border-radius: 5px; margin: 5px; display: inline-block; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)';" onmouseout="this.style.transform='translateY(0)';">SQL Server</span>
-  <span style="background: #2196F3; color: white; padding: 5px 10px; border-radius: 5px; margin: 5px; display: inline-block; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)';" onmouseout="this.style.transform='translateY(0)';">HTML</span>
-  <span style="background: #FF9800; color: white; padding: 5px 10px; border-radius: 5px; margin: 5px; display: inline-block; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)';" onmouseout="this.style.transform='translateY(0)';">CSS</span>
-</div>
-
-## 🌱 Hiện tại tôi đang...
-<ul style="color: #444;">
-  <li>Làm việc trên <a href="https://github.com/1O8O2/AutoParts-NodeJs">AutoPart-AutopartManagement</a></li>
-  <li>Học <strong>PUG</strong></li>
-  <li>Học <strong>SQL Server</strong></li>
-  <li>Học <strong>Nodejs</strong></li>
-</ul>
-
-## 📈 Dự án nổi bật
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
-  <div style="background: #fff; padding: 15px; border: 1px solid #ddd; border-radius: 8px; transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
-    <h3 style="color: #333;">AutoPart Management</h3>
-    <p style="color: #555;">Hệ thống quản lý phụ tùng ô tô sử dụng Node.js và PUG.</p>
-    <a href="https://github.com/1O8O2/AutoParts-NodeJs" style="color: #0066cc; text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#003366';" onmouseout="this.style.color='#0066cc';">Xem thêm →</a>
-  </div>
-  <div style="background: #fff; padding: 15px; border: 1px solid #ddd; border-radius: 8px; transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
-    <h3 style="color: #333;">[Tên dự án 2]</h3>
-    <p style="color: #555;">[Mô tả ngắn]</p>
-    <a href="[liên kết]" style="color: #0066cc; text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#003366';" onmouseout="this.style.color='#0066cc';">Xem thêm →</a>
-  </div>
-</div>
-
-## 📫 Liên hệ với tôi
-<div style="text-align: center; padding: 20px; background: #e0f7fa; border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.02)';" onmouseout="this.style.transform='scale(1)';">
-  <p style="margin: 5px;"><strong>Email:</strong> <a href="mailto:hungphitran.22@gmail.com" style="color: #0066cc; text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#003366';" onmouseout="this.style.color='#0066cc';">hungphitran.22@gmail.com</a></p>
-  <p style="margin: 5px;"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/hungphitran-backenddev" style="color: #0066cc; text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#003366';" onmouseout="this.style.color='#0066cc';">hungphitran-backenddev</a></p>
-  <p style="margin: 5px;"><strong>Website:</strong> <a href="[liên kết]" style="color: #0066cc; text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#003366';" onmouseout="this.style.color='#0066cc';">[chưa có]</a></p>
-</div>
-
-## ⚡ Fun Fact
-<p style="background: #f0f0f0; padding: 10px; border-radius: 5px; text-align: center; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.03)';" onmouseout="this.style.transform='scale(1)';">Tôi có thể code liên tục 6 tiếng chỉ với một cốc cà phê!</p>
 
 ---
-
-<div style="text-align: center; margin-top: 20px;">
-  <span style="font-size: 14px; color: #777;">⭐️ Cảm ơn bạn đã ghé thăm! Hãy liên hệ nếu muốn hợp tác nhé!</span>
-</div>
+<p style="text-align: center; color: #777; font-size: 13px;">"Maintaining a structured, analytical approach to complex bugs—whether in microservice clusters or embedded hardware layers."</p>
